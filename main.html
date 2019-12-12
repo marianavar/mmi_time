@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./base.css">
+	<title>Facility</title>
+</head>
+<body>
+	<img src="header.png" alt="header" class="header">
+	<img src="name.png" alt="name" class="name"> 
+	<div class="questions">
+		<div class="question">
+			<p>show me patients seen</p>
+			<div class="files">
+				<div class="time">
+				<a href="#">
+					<img src="./halfhour.png" alt="front" class="file">
+				</a>
+				<p>Last 30 minutes</p>
+				</div>
+				<div class="time">
+				<a href="#">
+					<img src="./1hour.png" alt="front" class="file">
+				</a>
+				<p>Last hour</p>
+				</div>
+				<div class="time">
+				<a href="#">
+					<img src="./2hours.png" alt="close" class="file">
+				</a> 
+				<p>Last 2 hours </p>
+				</div>
+				<div class="time">
+				<a href="#">
+					<img src="./24hours.png" alt="side" class="file">
+				</a>
+				<p>Today</p>
+				</div>
+			</div>
+		</div>
+		<div class="question">
+			<div class="containers">
+			<label class="container">Today Only
+						<input type="radio" checked="checked" name="radio">
+						<span class="checkmark"></span>
+					  </label>
+					  <label class="container">All Time
+						<input type="radio" name="radio">
+						<span class="checkmark"></span>
+			 </label>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn">Select Patient <img src="https://png.pngtree.com/svg/20161120/b1585ed98b.svg" alt="Trulli" class="drops"></button>
+				<div class="dropdown-content">
+				  <a href="#"><p class="names">Andrew Sheck</p><p class="seen_at">seen at 9:30 am(CT)</p></a>
+				  <a href="#"><p class="names">Benita Lores</p><p class="seen_at"> seen at 10:25am (MRI)</p></a>
+				  <a href="#"><p class="names">Doug Hernandez</p><p class="seen_at">seen at 1:30pm (PET)</p></a>
+				</div>
+			</div>
+		</div>
+		<div class="question"> 
+			<form>
+				<input type="text" class="fname" placeholder="Patient Name or MRN">
+			</form>
+		</div>
+	</div>
+	<img src="images.png" alt="patient_images" class="images">
+</body>
+</html>

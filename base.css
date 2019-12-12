@@ -1,0 +1,140 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color:grey; 
+  }
+
+.header{
+    width:99vw;
+}
+
+.name{
+    width:99vw;
+}
+
+.images{
+    width: 99vw;
+}
+
+.questions{
+    width: 99vw;
+    display:flex;
+    flex-direction: row;
+    margin:0;
+    color:white !important;
+}
+
+.question{
+    flex-grow: 100;
+    background-color:#f1f1f1;
+    padding-left:2rem;
+
+}
+
+.dropbtn {
+    background-color: lightgrey;
+    color: purple;
+    padding: 10px;
+    margin-bottom: 1rem;
+    width: 20rem;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color:grey;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+    margin-right:5rem;
+    line-height: .5rem;
+  }
+
+  .dropdown-content a {
+    color: grey;
+    padding-left:16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: grey;
+  }
+
+  .fname{
+    margin-top: 3rem;
+    width: 20rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    background-color: lightgrey;
+    border-radius: 20px;
+    color: #f1f1f1;
+  
+  }
+
+  .files{
+    display:flex;
+    flex-direction: row;
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.file{
+    width:3rem;
+    height: 3rem;
+    padding:1rem;
+    padding-top:0;
+    padding-bottom: 0;
+
+}
+
+.time{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-top:0;
+  padding: .5rem;
+  background: white;
+  border-color: #f9f9f9;
+  margin:.1rem;
+  margin-bottom:.3rem;
+}
+
+.drops{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.names{
+  font-weight:700;
+}
+
+.seen_at{
+  padding-bottom:1rem
+}
+
+.containers{
+  align-items: flex-end;
+  margin-left:8.5rem;
+  margin-bottom:1rem;
+  margin-top:1rem;
+}
